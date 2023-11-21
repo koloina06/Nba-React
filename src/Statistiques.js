@@ -10,7 +10,7 @@ class Statistiques extends React.Component{
 
     async componentDidMount() {
         try {
-            const response = await fetch('http://192.168.211.227:8080/statistiques');
+            const response = await fetch('https://192.168.211.227:8080/statistiques');
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
