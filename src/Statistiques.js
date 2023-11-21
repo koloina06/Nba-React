@@ -50,7 +50,7 @@ class Statistiques extends React.Component{
                             <td>{player.joueur.idJoueur}</td>
                             <td>{player.joueur.nomJoueur}</td>
                             <td>{player.joueur.equipe.abbreviation}</td>
-                            <td>{player.matchJoue}</td>
+                            <td>{player.matchEquipe}</td>
                             <td>{player.matchJoue}</td>
                             <td>{player.pointParMatch}</td>
                             <td>{player.rebondParMatch}</td>
