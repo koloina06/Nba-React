@@ -39,11 +39,9 @@ class Statistiques extends React.Component{
                         <th>RPM</th>
                         <th>PDPM</th>
                         <th>MPM</th>
-                        <th>EFF</th>
                         <th>FG%</th>
                         <th>3P%</th>
                         <th>%LF</th>
-                        <th>Désactivé</th>
                     </tr>
                 </thead>
                     <tbody>
@@ -58,11 +56,9 @@ class Statistiques extends React.Component{
                             <td>{player.rebondParMatch}</td>
                             <td>{player.passeDecisiveParMatch}</td>
                             <td>{player.minuteParMatch}</td>
-                            <td>{player.efficacite}</td>
                             <td>{player.fg}</td>
                             <td>{player.three}</td>
                             <td>{player.lf}</td>
-                            <td>{player.desactive}</td>
                         </tr>
                     ))}
                     </tbody>
